@@ -1,0 +1,12 @@
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/bin/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.deps.json
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/bin/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.runtimeconfig.json
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/bin/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.runtimeconfig.dev.json
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/bin/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.dll
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/bin/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.pdb
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/obj/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.csprojAssemblyReference.cache
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/obj/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.AssemblyInfoInputs.cache
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/obj/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.AssemblyInfo.cs
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/obj/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/obj/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.dll
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/obj/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.pdb
+/Users/mac/Desktop/Xamarin Projects/ObjectVsPrimitiveArrays/ObjectVsPrimitiveArrays/obj/Debug/netcoreapp3.1/ObjectVsPrimitiveArrays.genruntimeconfig.cache
