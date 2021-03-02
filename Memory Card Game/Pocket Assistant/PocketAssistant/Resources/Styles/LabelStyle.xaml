@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+
+<ResourceDictionary
+
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Style x:Key="RegularFontLbl" TargetType="Label">
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontFamily" Value="UbuntuRegular" />
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+
+    <Style x:Key="RegularSubFontLbl" TargetType="Label">
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontFamily" Value="UbuntuRegular" />
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <!--<Style x:Key="LightFontLbl" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Font" Value="UbuntuLight"/>
+        <Setter Property="FontSize" Value="16"/>
+    </Style>-->
+
+    <Style x:Key="LightFontLbl" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Font" Value="UbuntuLight"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="BoldFontLbl" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Font" Value="UbuntuBold"/>
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+
+    <Style x:Key="TittleFont" TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="FontFamily" Value="UbuntuRegular"/>
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+
+    </Style>
+
+</ResourceDictionary>

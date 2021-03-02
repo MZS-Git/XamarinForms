@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D3837065-0119-41C8-BAA3-68CE9ADC8BAF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PocketAssistant/View Models/Card/CardViewModel.cs">
+    <Files>
+      <File FileName="PocketAssistant/App.xaml.cs" Line="46" Column="54" />
+      <File FileName="PocketAssistant/View Models/Card/CardViewModel.cs" Line="211" Column="111" />
+      <File FileName="PocketAssistant/Model/CardModel.cs" Line="57" Column="29" />
+      <File FileName="PocketAssistant/Helper/Alert/AlertHelper.cs" Line="9" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PocketAssistant" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PocketAssistant.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C57E5B04-B7D0-48FE-88C1-F894DCD65378" />
+  <MonoDevelop.Ide.ItemProperties.PocketAssistant.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mac/Downloads/Pocket AssistantRepo copy/Pocket Assistant/PocketAssistant/App.xaml.cs" relfile="PocketAssistant/App.xaml.cs" line="52" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

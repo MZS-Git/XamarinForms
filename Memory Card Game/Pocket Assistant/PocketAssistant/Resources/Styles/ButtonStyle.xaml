@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+
+<ResourceDictionary
+
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:colors="clr-namespace:PocketAssistant.Resources.Colors">
+
+    <Color x:Key="PrimaryBtnBackColor">#3b5998</Color>
+
+    <Style x:Key="RegularFontBtn" TargetType="Button">
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontFamily" Value="UbuntuRegular" />
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+
+
+    <Style x:Key="LightFontBtn" TargetType="Button">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="FontFamily" Value="UbuntuLight"/>
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+
+    <Style x:Key="TittleFontBtn" TargetType="Button">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="FontFamily" Value="UbuntuBold"/>
+        <Setter Property="FontSize" Value="32"/>
+    </Style>
+
+    <Style x:Key="BoldWhiteFontBtn" TargetType="Button">
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontFamily" Value="UbuntuBold"/>
+        <Setter Property="FontSize" Value="20" />
+    </Style>
+
+    <Style x:Key="BoldBlackFontBtn" TargetType="Button">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="FontFamily" Value="UbuntuBold"/>
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+
+</ResourceDictionary>

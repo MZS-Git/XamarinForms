@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PocketAssistant.Views.Base.BaseView"
+             xmlns:colors = "clr-namespace:PocketAssistant.Resources.Colors"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             NavigationPage.HasNavigationBar="False"
+             ios:Page.UseSafeArea="true"
+             BackgroundColor="{x:Static colors:AppColor.BackgroundColor}">
+
+</ContentPage>

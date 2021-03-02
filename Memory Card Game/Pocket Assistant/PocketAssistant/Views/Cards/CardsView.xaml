@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base:BaseView  xmlns:base="clr-namespace:PocketAssistant.Views.Base"
+                xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                x:Class="PocketAssistant.Views.Cards.CardsView"
+                xmlns:viewModel="clr-namespace:PocketAssistant.ViewModels.Card"
+                x:Name="root">
+
+
+    <Grid
+        Margin="0,0,0,10"
+        BackgroundColor="White"
+        HorizontalOptions="FillAndExpand"
+        RowSpacing="5"
+        VerticalOptions="CenterAndExpand">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="92*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout  Grid.Row="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="20,0,20,0">
+
+            <Label
+           
+                FontAttributes="Bold"
+                FontFamily="UbuntuRegular"
+                FontSize="16"
+                HorizontalOptions="Start"
+                HorizontalTextAlignment="Center"
+                Text="{Binding Counter,StringFormat='Timer {0:F2}'}"
+                TextColor="Black"
+                VerticalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center" />
+
+            <Label
+           
+                FontAttributes="Bold"
+                FontFamily="UbuntuRegular"
+                FontSize="16"
+                HorizontalOptions="EndAndExpand"
+                HorizontalTextAlignment="Center"
+                Text="{Binding MovesCounter,StringFormat='Moves {0}'}"
+                TextColor="Black"
+                VerticalOptions="CenterAndExpand"
+                VerticalTextAlignment="Center" />
+        </StackLayout>
+
+
+
+        <Frame
+            Grid.Row="1"
+            Padding="0"
+            CornerRadius="5"
+            HasShadow="False"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+
+            <CollectionView
+                Grid.Row="1"
+                Margin="5,0,5,0"
+                BackgroundColor="White"
+                HorizontalOptions="FillAndExpand"
+                ItemsSource="{Binding ImagesCollection}"
+                VerticalOptions="FillAndExpand"
+                VerticalScrollBarVisibility="Always">
+
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="4" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <StackLayout
+                            Padding="5"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand">
+
+
+                            <Frame
+                                BackgroundColor="LightGray"
+                                CornerRadius="5"
+                                HasShadow="False"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand">
+
+                                <Grid>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="20*" />
+                                    </Grid.RowDefinitions>
+
+                                    <ImageButton
+                                        Grid.Row="0"
+                                        Aspect="AspectFit"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Source="{Binding Images}"
+                                        VerticalOptions="CenterAndExpand"
+                                        TabIndex="{Binding TabId}"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModel:CardViewModel}}, Path=ImageSelectedCommand}"
+                                        CommandParameter="{Binding .}">
+
+                                    </ImageButton>
+
+
+
+                                </Grid>
+
+                            </Frame>
+
+
+                        </StackLayout>
+
+
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </Frame>
+    </Grid>
+
+
+</base:BaseView>
